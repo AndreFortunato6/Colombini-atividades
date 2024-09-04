@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms2</title>
+    <title>Formulário 2</title>
 </head>
 <body>
-    <h5>Formulários parte 2</h5>
+    <font face="Trebuchet MS">
+        <h2>Formulários parte 2</h2>
+    
+    <form action="https://www.w3schools.com/action_page.php">
+        <h4>Primeiramente, insira a data de hoje:</h4>
+        <input type="date">
+        <br>
+        <h4>Agora, Seu Email:</h4>
+        <input type="email"><br>
+
+        <h4>Por último, sua senha:</h4>
+        <input type="password"><br>
+        <br>
+        <br>
+
+
+        <label for="fname"><b>Primeiro nome:</b></label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname"><b>Último sobrenome:</b></label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="local">Endereço:</label><br>
+        <input type="text" id="local" name="local"><br>
+        <label for="num">Número:</label><br>
+        <input type="text" id="num" name="num"><br>
+        <label for="com">Complemento:</label><br>
+        <input type="text" id="com" name="com"><br>
+
+        <label for="city">Cidade:</label><br>
+        <input list="cities" id="city" name="city">
+        <datalist id="cities">
+            <option value="São Paulo">
+            <option value="Rio de Janeiro">
+            <option value="Belo Horizonte">
+            <option value="Curitiba">
+            <option value="Porto Alegre">
+        </datalist><br>
+        
+        <label for="state">Estado:</label><br>
+        <select id="state" name="state">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PR">Paraná</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </select><br>
+        <label for="CEP">CEP:</label><br>
+        <input type="text" id="CEP" name="CEP"><br><br>
+        
+        <h4>Gênero</h4>
+        <input type="radio" id="M" name="fav_language" value="M" checked>
+        <label for="M">Masculino</label><br>
+        <input type="radio" id="F" name="fav_language" value="F">
+        <label for="F">Feminino</label><br>
+        <input type="radio" id="N" name="fav_language" value="N">
+        <label for="N">Prefiro não informar</label><br><br>
+        <h4>Curso(s)</h4>
+        <input type="checkbox" id="c1" name="c1" value="ADS">
+            <label for="c1"> Análise e Desenvolvimento de Sistemas</label><br>
+            <input type="checkbox" id="c2" name="c2" value="GTI">
+            <label for="c2"> Gestão de projetos de TI</label><br>
+            <input type="checkbox" id="c3" name="c3" value="DJ">
+            <label for="c3">Desenvolvimento de Jogos</label><br>
+            <input type="checkbox" id="c4" name="c4" value="BD">
+            <label for="c4"> Banco de Dados</label><br>
+        <h4>Modelo</h4>
+            <input type="radio" id="p" name="fav_language" value="p" checked>
+            <label for="p">Presencial</label><br>
+            <input type="radio" id="r" name="fav_language" value="r">
+            <label for="r">Remoto (EAD)</label><br>
+            <input type="radio" id="h" name="fav_language" value="h">
+            <label for="h">Semipresencial (Híbrido)</label>
+
+
+            <form action="https://www.w3schools.com/action_page.php"><br><br>
+                
+                <input type="submit" value="Submit">
+                </form>
+                <hr>
+    
+            </font>
+        </form>
+    <br>
 </body>
 </html>
