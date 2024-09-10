@@ -1,0 +1,28 @@
+img{
+    border-radius: 5%;
+    width: 200;
+    height:200;
+
+   
+   }
+
+   a hover {
+    color:#de2e2e
+   }
+
+h1{
+   color: white;
+}
+
+nav {
+    background-color: black;
+    padding:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+hr{
+    color:blue;
+    height: 10;
+}
+a{
+    color:white
+}
