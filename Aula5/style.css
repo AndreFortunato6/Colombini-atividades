@@ -1,0 +1,74 @@
+h1{
+    font-family: "Red Rose", serif;
+    color: #091133;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    color: #091133;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    margin-top: 16px;
+    margin-bottom: 52px;
+}
+
+button{
+width: 190px;
+height: 36px;
+top: 454px;
+left: 440.15px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+color:black;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+border: 3px solid #000000
+
+
+}
+
+#Botaoesquerdo{
+    background: #111B47;
+    color: white;
+
+}
+
+img{
+width: 491.67px;
+height: 1031px;
+left: 0.16px;
+gap: 0px;
+opacity: 0px;
+margin-left: 98px;
+top:100px
+}
+#joao{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+#esq{
+width: 520px;
+height: 208px;
+top: 160px;
+left: 165px;
+gap: 0px;
+opacity: 0px;
+margin-top: 60px;
+}
+
+div{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
