@@ -1,4 +1,9 @@
 
+h2{
+  font-family: 'Feast of Flesh BB', sans-serif;
+                                                
+                
+}
 #Lindex .container{
 
   width: 600px;
@@ -8,6 +13,7 @@ flex-wrap: wrap;
 }
 
 body {
+  
   background-image: url('d63ystt-e22432f7-ee54-4906-b23c-f3f0de5775d7.png'); 
   background-size: cover; 
   background-position: center; 
