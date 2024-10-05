@@ -25,6 +25,7 @@ body {
 
 button{
   background-color: gold;
+  
   width: 80px;
   height:80px;
   border:solid black, 5px;
@@ -33,6 +34,9 @@ button{
   margin-left: 10px;
   font-family: 'Feast of Flesh BB', sans-serif;
   font-size: x-large;
+}
+button:hover{
+  background-color: orange;
 }
 
 head{
