@@ -16,8 +16,8 @@ h1{
 }
 .carousel-item img {
     width: 100%;
-    height: auto;
-    max-height: 700px;
+  
+    height: 700px;
 }
 
 p{
