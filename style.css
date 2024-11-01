@@ -11,8 +11,8 @@ body{
 button{
     background-color:grey;
     
-    width: 140px;
-    height:140px;
+    width: 125px;
+    height:125px;
     border:solid black, 5px;
     border-radius:50%;
     margin-right: 10px;
